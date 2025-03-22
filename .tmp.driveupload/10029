@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+int minof2(int a,int b){
+  if(a<b)
+  return a;
+  else{
+    return b;
+  }
+}
+int main(){
+  cout<<"min="<<minof2(10,20)<<endl;
+  return 0;
+}
